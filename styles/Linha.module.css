@@ -1,0 +1,80 @@
+#main {
+    padding: 18px 20px 18px 14px;
+    border-radius: 30px;
+    border: 1px solid #9A9595;
+    margin-bottom: 12px;
+}
+
+#busIcon {
+    height: 42px;
+    margin: 0px 15px 0px 0px;
+}
+
+#title {
+    color: #517664;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.iconLinhaTop {
+    margin: 0px 9px 0px 0px;
+    height: 39px;
+}
+
+.iconLinha {
+    margin: -8px 9px 0px 0px;
+    height: 39px;
+}
+
+.textPlain {
+    color: #3C3636;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+.textPlain2 {
+    color: #3C3636;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 11px;
+    height: 20px;
+}
+
+.textCollapse {
+    color: #517664;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+#divIcons {
+    padding-top: 6px;
+}
+
+#collapseBody1 {
+    margin-top: 11px;
+    padding-left: 17px;
+}
+
+#iconCollapse {
+    height: 22px;
+    width: 22px;
+}
+
+#iconClock {
+    height: 14px;
+    width: 14px;
+    margin-right: 7px;
+}
+
+#iconMap {
+    height: 14px;
+    margin-right: 7px;
+}
+
+.aCollapse {
+    margin-bottom: 10px;
+}

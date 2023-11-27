@@ -1,0 +1,40 @@
+#main {
+    background-color: #517664;
+}
+
+#divTitle {
+    margin-bottom: 15px;
+    padding: 24px 9px 0 16px;
+}
+
+#iconVoltar {
+    margin-right: 9px;
+}
+
+#logo {
+    max-height: 100%;
+    width: 113px;
+    margin-bottom: 70px;
+}
+
+#contentDiv {
+    background-color: #FFFFFF;
+    border-radius: 40px 40px 0px 0px;
+    padding: 25px 35px;
+}
+
+#contentDiv h1 {
+    color: #3C3636;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+#contentDiv p {
+    color: #3C3636;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+

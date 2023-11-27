@@ -1,0 +1,15 @@
+#container {
+    padding: 11px 0px 4px 0px;
+    border-radius: 25px;
+}
+
+#container p {
+    color: #9A9595;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.icons {
+    height: 28px;
+}

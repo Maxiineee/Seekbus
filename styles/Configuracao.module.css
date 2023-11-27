@@ -1,0 +1,16 @@
+#main {
+    padding: 17px;
+}
+
+#icon {
+    margin-right: 14px;
+    width: 36px;
+    height: 36px;
+}
+
+#main h2 {
+    color: #517664;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+}

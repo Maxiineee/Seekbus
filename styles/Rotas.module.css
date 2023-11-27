@@ -1,0 +1,44 @@
+#titleContainer {
+    padding: 24px 40px 28px 40px;
+}
+
+#divTitle {
+    margin-bottom: 31px;
+}
+
+#title {
+    color: #517664;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.inputs {
+    border: 1px solid #9A9595;
+    border-radius: 100px;
+    padding: 5px 16px 3px 16px;
+}
+
+.inputs::placeholder {
+    color: #9A9595;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+#iconVoltar {
+    margin: 0px 9px 0px -24px;
+}
+
+#iconRota {
+    margin-right: 14px;
+}
+
+#divisor {
+    color: #517664;
+    opacity: 100;
+}
+
+#divRotas {
+    padding: 7% 20px 7% 20px;
+}

@@ -1,0 +1,34 @@
+#main h2 {
+    height: 31px;
+    color: #3C3636;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+#main h1 {
+    height: 31px;
+    color: #517664;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+#main h4 {
+    height: 31px;
+    color: #3C3636;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.5;
+    margin: 0;
+}
+
+#main h5 {
+    height: 18px;
+    color: #3C3636;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+}

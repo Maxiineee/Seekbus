@@ -1,0 +1,20 @@
+#divTitle {
+    margin-bottom: 70px;
+    padding: 24px 9px 0 16px;
+}
+
+#title {
+    color: #517664;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#iconVoltar {
+    margin-right: 9px;
+}
+
+#divisor {
+    color: #517664;
+    opacity: 100;
+}

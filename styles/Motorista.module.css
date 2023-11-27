@@ -1,0 +1,33 @@
+#title {
+    color: #517664;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0px 0px 38px 0px;
+}
+
+#divMain {
+    padding-top: 38px;
+}
+
+#divLinhas {
+    padding: 0px 20px 7% 20px;
+}
+
+#divLinhas h2 {
+    height: 31px;
+    color: #3C3636;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+#divLinhas h1 {
+    height: 31px;
+    color: #517664;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+

@@ -1,0 +1,40 @@
+#divTitle {
+    margin-bottom: 70px;
+    padding: 24px 9px 0 16px;
+}
+
+#title {
+    color: #517664;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#iconVoltar {
+    margin-right: 9px;
+}
+
+#contentDiv {
+    padding: 0px 17px;
+}
+
+#logo {
+    max-height: 100%;
+    width: 195px;
+    margin-bottom: 40px;
+}
+
+#mainText {
+    color: #3C3636;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+#secondText {
+    color: #3C3636;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}

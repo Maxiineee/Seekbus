@@ -1,0 +1,38 @@
+#container {
+    padding: 20px 30px 25px 30px;
+    border-radius: 25px;
+}
+
+#title {
+    color: #517664;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.inputs {
+    border: 1px solid #9A9595;
+    border-radius: 100px;
+    padding: 5px 16px 3px 16px;
+    margin: 0;
+}
+
+.inputs::placeholder {
+    color: #9A9595;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+#iconBus {
+    margin-right: 12px;
+}
+
+#iconRota {
+    margin-right: 14px;
+}
+
+#divisor {
+    color: #BDB5B5;
+    opacity: 100;
+}
