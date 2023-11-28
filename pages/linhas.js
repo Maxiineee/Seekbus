@@ -28,7 +28,7 @@ export default function Linhas() {
             </div>
 
             <div className='container-fluid bg-white flex-fill' id={styles.divLinhas}>
-                {linhas && (
+                {linhas ? (
                     linhas == 'Erro' ? (
                         <h4>Erro de conexão ao banco de dados. Verifique a sua conexão ou entre em contato com as desenvolvedoras.</h4>
                     ) : (
@@ -36,6 +36,8 @@ export default function Linhas() {
                             <Linha id={linha.id} codigo={linha.codigo} nome={linha.nome} saida={linha.saidaDesc} chegada={linha.chegadaDesc} horarios={JSON.parse(linha.horarios)} paradas={linha.paradas} key={index} />
                         ))
                     )
+                ) : (
+                    <img src='/imgs/loadingGif.gif'></img>
                 )}
             </div>
 
