@@ -9,34 +9,31 @@ import { useEffect, useRef, useState } from 'react'
 export default function LinhaId() {
     const router = useRouter()
     const [linha, setLinha] = useState()
-    const id = useRef()
+    const [id, setId] = useState()
 
     async function runFetch() {
-        var data = await fetch('https://seekbusapi.azurewebsites.net/getlinha/' + id.current).then((data) => data.json())
+        var data = await fetch('https://seekbusapi.azurewebsites.net/getlinha/' + id).then((data) => data.json())
         setLinha(data)
-        console.log('teste1')
     }
 
     useEffect(() => {
         if (linha) return
-        if (!id.current) return
+        if (!id) return
         runFetch()
-        console.log('teste2')
-    }, [id.current])
+    }, [id])
 
     useEffect(() => {
-        if (id.current) return
+        if (id) return
         if (!router.query.linhaId) return
         var data = router.query.linhaId
-        id.current = data
-        console.log('teste')
+        setId(data)
     }, [])
 
     return (
         <div className='bg-secondary vh-100 vw-100'>
             <Wrapper apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY} libraries={['marker']} >
-                {(linha && id.current) ? (
-                    <Mapa path={JSON.parse(linha.rota)} linha={id.current} />
+                {(linha && id) ? (
+                    <Mapa path={JSON.parse(linha.rota)} linha={id} />
                 ) : (
                     linha ? (
                         <Mapa path={JSON.parse(linha.rota)} />
