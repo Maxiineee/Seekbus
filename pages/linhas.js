@@ -12,7 +12,7 @@ export default function Linhas() {
 
     async function runFetch() {
         try {
-            var data = await fetch('http://127.0.0.1:5000/getlinhas').then((data) => data.json())
+            var data = await fetch('https://seekbusapi.azurewebsites.net/getlinhas').then((data) => data.json())
             setLinhas(data)
         }
         catch {
@@ -23,7 +23,7 @@ export default function Linhas() {
     return (
         <div id={styles.main} className='vh-100 vw-100 d-flex flex-column'>
             <div className='d-flex align-items-center' id={styles.divTitle}>
-                <Link href={{ pathname: '/configuracoes' }}><img src='/imgs/voltarIcon.svg' alt='' id={styles.iconVoltar} /></Link>
+                <Link href={{ pathname: '/' }}><img src='/imgs/voltarIcon.svg' alt='' id={styles.iconVoltar} /></Link>
                 <h1 id={styles.title}>Linhas</h1>
             </div>
 

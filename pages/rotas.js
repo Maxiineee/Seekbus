@@ -12,7 +12,7 @@ export default function Rotas() {
         <div className='bg-white vh-100 vw-100 d-flex flex-column'>
             <div className='bg-white' id={styles.titleContainer}>
                 <div className='d-flex align-items-center' id={styles.divTitle}>
-                    <Link href={{ pathname: '/configuracoes' }}><img src='/imgs/voltarIcon.svg' alt='' id={styles.iconVoltar} /></Link>
+                    <Link href={{ pathname: '/' }}><img src='/imgs/voltarIcon.svg' alt='' id={styles.iconVoltar} /></Link>
                     <h1 id={styles.title}>Buscar rota</h1>
                 </div>
 

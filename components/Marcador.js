@@ -6,7 +6,7 @@ export default function Marcador({ map, position, title, icon, bus, linha }) {
 
     async function runFetch() {
         try {
-            var data = await fetch('http://127.0.0.1:5000/getlocalizacao/' + linha).then((data) => data.json())
+            var data = await fetch('https://seekbusapi.azurewebsites.net/getlocalizacao/' + linha).then((data) => data.json())
             localizacao.current = JSON.parse(data.coords)
             markerRef.current.position = localizacao.current
         }

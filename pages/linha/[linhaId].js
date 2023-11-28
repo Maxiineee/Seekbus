@@ -12,7 +12,7 @@ export default function LinhaId() {
     const id = useRef()
 
     async function runFetch() {
-        var data = await fetch('http://127.0.0.1:5000/getlinha/' + id.current).then((data) => data.json())
+        var data = await fetch('https://seekbusapi.azurewebsites.net/getlinha/' + id.current).then((data) => data.json())
         setLinha(data)
     }
 
