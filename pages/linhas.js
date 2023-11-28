@@ -27,7 +27,7 @@ export default function Linhas() {
                 <h1 id={styles.title}>Linhas</h1>
             </div>
 
-            <div className='container-fluid bg-white flex-fill d-flex justify-content-center align-items-center' id={styles.divLinhas}>
+            <div className='container-fluid bg-white flex-fill d-flex flex-column justify-content-center align-items-center' id={styles.divLinhas}>
                 {linhas ? (
                     linhas == 'Erro' ? (
                         <h4>Erro de conexão ao banco de dados. Verifique a sua conexão ou entre em contato com as desenvolvedoras.</h4>
