@@ -27,6 +27,7 @@ export default function LinhaId() {
         if (!router.query.linhaId) return
         var data = router.query.linhaId
         id.current = data
+        console.log('teste')
     }, [])
 
     return (
