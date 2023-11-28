@@ -37,7 +37,7 @@ export default function Linhas() {
                         ))
                     )
                 ) : (
-                    <img src='/imgs/loadingGif.gif'></img>
+                    <img src='/imgs/loadingGif.gif' className='img-fluid'></img>
                 )}
             </div>
 
