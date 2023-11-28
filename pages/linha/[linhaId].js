@@ -14,13 +14,14 @@ export default function LinhaId() {
     async function runFetch() {
         var data = await fetch('https://seekbusapi.azurewebsites.net/getlinha/' + id.current).then((data) => data.json())
         setLinha(data)
-        console.log(data)
+        console.log('teste1')
     }
 
     useEffect(() => {
         if (linha) return
         if (!id.current) return
         runFetch()
+        console.log('teste2')
     }, [id.current])
 
     useEffect(() => {
