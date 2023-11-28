@@ -21,6 +21,9 @@
 #divLinhas {
     border-radius: 40px 40px 0 0;
     padding: 58px 45px 0px 45px;
-    padding-bottom: 22px;
-    
+    padding-bottom: 22px; 
+}
+
+#loadingGif {
+    height: 30%;
 }

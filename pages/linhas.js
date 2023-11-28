@@ -27,7 +27,7 @@ export default function Linhas() {
                 <h1 id={styles.title}>Linhas</h1>
             </div>
 
-            <div className='container-fluid bg-white flex-fill' id={styles.divLinhas}>
+            <div className='container-fluid bg-white flex-fill justify-content-center align-items-center' id={styles.divLinhas}>
                 {linhas ? (
                     linhas == 'Erro' ? (
                         <h4>Erro de conexão ao banco de dados. Verifique a sua conexão ou entre em contato com as desenvolvedoras.</h4>
@@ -37,7 +37,7 @@ export default function Linhas() {
                         ))
                     )
                 ) : (
-                    <img src='/imgs/loadingGif.gif' className='img-fluid'></img>
+                    <img src='/imgs/loadingGif.gif' id={styles.loadingGif}></img>
                 )}
             </div>
 
