@@ -14,6 +14,7 @@ export default function LinhaId() {
     async function runFetch() {
         var data = await fetch('https://seekbusapi.azurewebsites.net/getlinha/' + id.current).then((data) => data.json())
         setLinha(data)
+        console.log(data)
     }
 
     useEffect(() => {
